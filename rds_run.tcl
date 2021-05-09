@@ -20,14 +20,14 @@ dbset db pg
 diset connection pg_host localhost
 diset connection pg_port 5432
 diset tpcc pg_driver timed
-diset tpcc pg_rampup 2
-diset tpcc pg_duration 5
+diset tpcc pg_rampup 5
+diset tpcc pg_duration 25
 diset tpcc pg_vacuum true
 print dict
 vuset logtotemp 1
 loadscript
 puts "SEQUENCE STARTED"
-foreach z { 1 16 32 64 128 256 512} {
+foreach z { 1 2 4 8 16 32 64} {
 puts "$z VU TEST"
 vuset vu $z
 vucreate
