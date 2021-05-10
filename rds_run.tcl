@@ -20,8 +20,7 @@ dbset db pg
 diset connection pg_host localhost
 diset connection pg_port 5432
 diset tpcc pg_driver timed
-diset tpcc pg_rampup 5
-diset tpcc pg_duration 25
+diset tpcc pg_duration 5
 diset tpcc pg_vacuum true
 print dict
 vuset logtotemp 1
