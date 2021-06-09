@@ -1,0 +1,14 @@
+stress-ng: info:  [88713] dispatching hogs: 4 dccp
+stress-ng: fail:  [88737] stress-ng-dccp: socket failed, errno=13 (Permission denied)
+stress-ng: fail:  [88738] stress-ng-dccp: socket failed, errno=13 (Permission denied)
+stress-ng: fail:  [88739] stress-ng-dccp: socket failed, errno=13 (Permission denied)
+stress-ng: fail:  [88740] stress-ng-dccp: socket failed, errno=13 (Permission denied)
+stress-ng: error: [88713] process 88737 (stress-ng-dccp) terminated with an error, exit status=2 (stressor failed)
+stress-ng: error: [88713] process 88738 (stress-ng-dccp) terminated with an error, exit status=2 (stressor failed)
+stress-ng: error: [88713] process 88739 (stress-ng-dccp) terminated with an error, exit status=2 (stressor failed)
+stress-ng: error: [88713] process 88740 (stress-ng-dccp) terminated with an error, exit status=2 (stressor failed)
+stress-ng: info:  [88713] unsuccessful run completed in 0.00s
+stress-ng: info:  [88713] stressor       bogo ops real time  usr time  sys time   bogo ops/s     bogo ops/s CPU used per
+stress-ng: info:  [88713]                           (secs)    (secs)    (secs)   (real time) (usr+sys time) instance (%)
+stress-ng: info:  [88713] dccp                  0      0.00      0.00      0.00         0.00           0.00         0.00
+stress-ng: info:  [88713] dccp               0.00 messages per sec (average per stressor)

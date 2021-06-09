@@ -1,0 +1,5 @@
+stress-ng: info:  [86454] dispatching hogs: 8 hdd
+stress-ng: info:  [86454] successful run completed in 3605.92s (1 hour, 5.92 secs)
+stress-ng: info:  [86454] stressor       bogo ops real time  usr time  sys time   bogo ops/s     bogo ops/s CPU used per
+stress-ng: info:  [86454]                           (secs)    (secs)    (secs)   (real time) (usr+sys time) instance (%)
+stress-ng: info:  [86454] hdd            14786560   3604.85    548.92    450.11      4101.85       14800.92         3.46

@@ -1,0 +1,5 @@
+stress-ng: info:  [88399] dispatching hogs: 64 vm
+stress-ng: info:  [88399] successful run completed in 3600.18s (1 hour, 0.18 secs)
+stress-ng: info:  [88399] stressor       bogo ops real time  usr time  sys time   bogo ops/s     bogo ops/s CPU used per
+stress-ng: info:  [88399]                           (secs)    (secs)    (secs)   (real time) (usr+sys time) instance (%)
+stress-ng: info:  [88399] vm            782552570   3600.01  56702.72    891.54    217375.21       13587.34        25.00

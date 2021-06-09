@@ -1,0 +1,22 @@
+stress-ng: info:  [88746] dispatching hogs: 8 dccp
+stress-ng: fail:  [88770] stress-ng-dccp: socket failed, errno=13 (Permission denied)
+stress-ng: fail:  [88771] stress-ng-dccp: socket failed, errno=13 (Permission denied)
+stress-ng: fail:  [88772] stress-ng-dccp: socket failed, errno=13 (Permission denied)
+stress-ng: fail:  [88773] stress-ng-dccp: socket failed, errno=13 (Permission denied)
+stress-ng: fail:  [88774] stress-ng-dccp: socket failed, errno=13 (Permission denied)
+stress-ng: error: [88746] process 88770 (stress-ng-dccp) terminated with an error, exit status=2 (stressor failed)
+stress-ng: fail:  [88775] stress-ng-dccp: socket failed, errno=13 (Permission denied)
+stress-ng: error: [88746] process 88771 (stress-ng-dccp) terminated with an error, exit status=2 (stressor failed)
+stress-ng: fail:  [88777] stress-ng-dccp: socket failed, errno=13 (Permission denied)
+stress-ng: error: [88746] process 88772 (stress-ng-dccp) terminated with an error, exit status=2 (stressor failed)
+stress-ng: fail:  [88779] stress-ng-dccp: socket failed, errno=13 (Permission denied)
+stress-ng: error: [88746] process 88773 (stress-ng-dccp) terminated with an error, exit status=2 (stressor failed)
+stress-ng: error: [88746] process 88774 (stress-ng-dccp) terminated with an error, exit status=2 (stressor failed)
+stress-ng: error: [88746] process 88775 (stress-ng-dccp) terminated with an error, exit status=2 (stressor failed)
+stress-ng: error: [88746] process 88777 (stress-ng-dccp) terminated with an error, exit status=2 (stressor failed)
+stress-ng: error: [88746] process 88779 (stress-ng-dccp) terminated with an error, exit status=2 (stressor failed)
+stress-ng: info:  [88746] unsuccessful run completed in 0.00s
+stress-ng: info:  [88746] stressor       bogo ops real time  usr time  sys time   bogo ops/s     bogo ops/s CPU used per
+stress-ng: info:  [88746]                           (secs)    (secs)    (secs)   (real time) (usr+sys time) instance (%)
+stress-ng: info:  [88746] dccp                  0      0.00      0.00      0.00         0.00           0.00         0.00
+stress-ng: info:  [88746] dccp               0.00 messages per sec (average per stressor)
